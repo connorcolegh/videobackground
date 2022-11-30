@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Video Background Project">
+  <meta name="author" content="Matt Riley">
+
+  <!-- Link to My Font Awesome Kit -->
+  <script src="https://kit.fontawesome.com/cb216a6a38.js" crossorigin="anonymous"></script>
+
+  <link rel="stylesheet" href="style.css">
+  <title>Video Background</title>
+</head>
+<body>
+  <section id="main">
+    <div id="video-container">
+      <!-- Autoplay starts the video. Loop causes the video to continuously loop the video. Muted removes any sound/audio from the video. -->
+      <video src="html.mp4" autoplay loop muted></video>
+    </div>
+    <!-- Div to cover/darken the video -->
+    <div id="cover"></div>
+    <div id="content">
+      <h1>Matthew Riley</h1>
+      <h2>Web Developer</h2>
+      <!-- Setting the href value to an ID will take the user to the element with that ID when the link is clicked -->
+      <a href="#about" id="click">About</a>
+    </div>
+  </section>
+
+  <section id="about">
+    <h1>About</h1>
+    <p>Currently Enrolled in a Web Development Program</p>
+    <h2>Follow me on social media</h2>
+    <div>
+      <!-- Adding the target="_blank" attribute will cause the URL/link to open in a new tab -->
+      <a href="https://twitter.com/MattJRiley14" target="_blank">
+        <i class="fa-brands fa-twitter"></i>
+      </a>
+      <a href="https://www.facebook.com/MattJRiley14" target="_blank">
+        <i class="fa-brands fa-facebook"></i>
+      </a>
+      <a href="https://github.com/MattJRiley14" target="_blank">
+        <i class="fa-brands fa-github"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/MattJRiley14" target="_blank">
+        <i class="fa-brands fa-linkedin"></i>
+      </a>
+    </div>
+  </section>
+</body>
+</html>
